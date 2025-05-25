@@ -349,15 +349,15 @@ async function searchSavedRecipes(recipeId) {
     }
 }
 
-        function redirectUserToProperPage(container) {
-            // Find the closest section containing the clicked button
-               if (container == "recipe-grid") {
-                    showPage('home');
-               } else {
-                    showPage('myRecipes'); 
-                    displayRecipes(allRecipes, document.getElementById("saved-recipes-grid"))
-               }
-                // showPage('home')
+function redirectUserToProperPage(container) {
+    // Find the closest section containing the clicked button
+        if (container == "recipe-grid") {
+            showPage('home');
+        } else {
+            showPage('myRecipes'); 
+            displayRecipes(allRecipes, document.getElementById("saved-recipes-grid"))
+        }
+        // showPage('home')
             
             
             
