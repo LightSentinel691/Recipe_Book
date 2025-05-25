@@ -356,12 +356,8 @@ function redirectUserToProperPage(container) {
         } else {
             showPage('myRecipes'); 
             displayRecipes(allRecipes, document.getElementById("saved-recipes-grid"))
-        }
-        // showPage('home')
-            
-            
-            
-        }
+        }     
+}
 
 
         // Make functions available globally
