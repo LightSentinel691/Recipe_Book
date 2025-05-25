@@ -360,8 +360,8 @@ function redirectUserToProperPage(container) {
 }
 
 
-        // Make functions available globally
-        window.showPage = showPage;
-        window.showRecipeDetail = showRecipeDetail;
-        window.saveRecipe = saveRecipe;
-        window.logout = logout;
+// Make functions available globally
+window.showPage = showPage;
+window.showRecipeDetail = showRecipeDetail;
+window.saveRecipe = saveRecipe;
+window.logout = logout;
