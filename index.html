@@ -15,10 +15,10 @@
             <nav class="flex space-x-4">
                 <button onclick="window.location.reload()" class="px-3 py-2 hover:bg-red-700 rounded">Home</button>
                 <button onclick="showPage('myRecipes'); loadSavedRecipes()" class="px-3 py-2 hover:bg-red-700 rounded">My Recipes</button>
-                <button onclick="showPage('login')" id="login-btn" class="px-3 py-2 bg-white text-red-600 rounded hover:bg-gray-100">Login</button>
+                <button onclick="showPage('login'); window.location.reload()" id="login-btn" class="px-3 py-2 bg-white text-red-600 rounded hover:bg-gray-100">Login</button>
                 <span id="user-greeting" class="hidden items-center">
                     <span id="username" class="mr-2"></span>
-                    <button onclick="logout()" class="px-3 py-2 bg-gray-200 text-gray-800 rounded hover:bg-gray-300">Logout</button>
+                    <button onclick="logout(); window.location.reload()" class="px-3 py-2 bg-gray-200 text-gray-800 rounded hover:bg-gray-300">Logout</button>
                 </span>
             </nav>
         </div>
